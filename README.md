@@ -27,7 +27,12 @@ Refer to "purgepolicy" file to get sample of the policy. Using prefix, a purge p
 
 Apply policy using s3cmd: 
 
-     's3cmd purgepolicy.xml s3://SampleBucket'
+     's3cmd setlifecycle purgepolicy.xml s3://SampleBucket'
+
+After applying verify using
+
+     's3cmd getlifecycle s3://SampleBucket'
+
      
      
       
