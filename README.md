@@ -23,7 +23,11 @@ B) List Objects within a folder
 
 C) Policy to purge data within a folder in a bucket:
 
-Refer to "purgepolicy" file to get sample of the policy. Using prefix, a purge policy can be setup at a folder level. 
+Refer to "purgepolicy" file to get sample of the policy. Using prefix, a purge policy can be setup at a folder level. Update policy "Days=30" to required number of days. 
+
+Apply policy using s3cmd: 
+
+     's3cmd purgepolicy.xml s3://SampleBucket'
      
      
       
