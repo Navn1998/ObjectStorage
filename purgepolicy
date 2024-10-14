@@ -1,0 +1,10 @@
+<LifecycleConfiguration>
+    <Rule>
+        <ID>PurgeOldObjects</ID>
+        <Prefix>FolderPath1/FolderPath2/</Prefix>
+        <Status>Enabled</Status>
+        <Expiration>
+            <Days>30</Days>
+        </Expiration>
+    </Rule>
+</LifecycleConfiguration>
